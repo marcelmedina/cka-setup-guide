@@ -1,5 +1,5 @@
-loc=eastus
-rg='rg-cka'
+loc=australiaeast
+rg='rg-cka-migration-demo'
 # storageacc=wgckastorage
 vmimage=ubuntults
 shutdownutc=1230 #Auto Shutdown time in UTC
@@ -11,8 +11,8 @@ vnetaddressprefix='10.230.0.0/24'
 subnetaddressprefix='10.230.0.0/27'
 
 # Controller VM should have > 2 cpu
-controllervmsize='Standard_DS3' # check the available vm sizes in your region
-size='Standard_DS1'
+controllervmsize='Standard_D3_v2' # check the available vm sizes in your region
+size='Standard_D1_v2'
 # az vm list-sizes -l eastus -o table
 
 controllervmprivateip='10.230.0.10'
