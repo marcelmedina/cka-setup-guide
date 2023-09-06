@@ -13,7 +13,8 @@ subnetaddressprefix='10.230.0.0/27'
 # Controller VM should have > 2 cpu
 controllervmsize='Standard_D3_v2' # check the available vm sizes in your region
 size='Standard_D1_v2'
-# az vm list-sizes -l eastus -o table
+# az vm list-sizes -l australiaeast -o table
+# az vm list-skus --location australiaeast --size Standard_D --all --output table
 
 controllervmprivateip='10.230.0.10'
 controllernic='controller-nic'
