@@ -1,5 +1,7 @@
 # Setting up Kubernetes in (not so) hard way
 
+*Youtube*: https://www.youtube.com/watch?v=BaIT2J1tWuE
+
 *Cluster Preparation Guide for CKA*
 
 Using kubeadm
