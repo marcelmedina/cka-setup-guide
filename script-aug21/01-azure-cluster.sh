@@ -1,5 +1,5 @@
 loc=australiaeast
-rg='rg-cka-migrate-demo'
+rg='rg-cka-migrate2-demo'
 # storageacc=wgckastorage
 vmimage=ubuntults
 shutdownutc=1230 #Auto Shutdown time in UTC
